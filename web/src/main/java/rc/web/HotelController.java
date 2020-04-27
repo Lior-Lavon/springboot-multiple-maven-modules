@@ -7,6 +7,7 @@ import rc.storage.HotelRepository;
 
 import java.util.List;
 
+
 @RestController
 public class HotelController {
 
