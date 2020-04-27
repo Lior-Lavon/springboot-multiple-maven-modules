@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>persistence</artifactId>
+    <artifactId>storage</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -17,7 +17,7 @@
             <groupId>rc</groupId>
             <artifactId>domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+<!--            <scope>compile</scope>-->
         </dependency>
     </dependencies>
-
 </project>
