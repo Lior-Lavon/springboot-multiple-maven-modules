@@ -1,0 +1,13 @@
+package rc.springbootmultiplemavenmodules;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringbootMultipleMavenModulesApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
