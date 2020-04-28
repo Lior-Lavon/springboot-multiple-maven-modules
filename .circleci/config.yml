@@ -34,8 +34,6 @@ jobs:
 
         - run: mvn dependency:go-offline
 
-        - store_artifacts: [~/domain]
-
         - save_cache:
               paths:
               - ~/.m2
@@ -48,3 +46,4 @@ jobs:
           # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
 #          path: domain/target/domain-0.0.1-SNAPSHOT.jar
 
+        - store_artifacts: {{~/domain/target/domain-0.0.1-SNAPSHOT.jar}}
