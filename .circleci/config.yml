@@ -46,4 +46,4 @@ jobs:
           # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
 #          path: domain/target/domain-0.0.1-SNAPSHOT.jar
 
-        - store_artifacts: {~/domain}
+        - store_artifacts: {~/domain/target/domain-0.0.1-SNAPSHOT.jar}
