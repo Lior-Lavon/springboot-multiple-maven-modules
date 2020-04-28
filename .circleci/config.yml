@@ -34,7 +34,7 @@ jobs:
 
         - run: mvn dependency:go-offline
 
-        - store_artifacts: ~/domain
+        - store_artifacts: [~/domain]
 
         - save_cache:
               paths:
