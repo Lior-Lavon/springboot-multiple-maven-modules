@@ -12,6 +12,10 @@
     <artifactId>web</artifactId>
     <packaging>jar</packaging>
 
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>rc</groupId>
